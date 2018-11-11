@@ -14,12 +14,16 @@ def getdata():
      names = ["point" ,"measuringround" ,"H" ,"Rx",
      "Ry","R"] , delimiter=None)
 
+def getangle(p , r):
+    ret = arccos( inner(p , r) / (linalg.norm(p) * linalg.norm(r))  )
+    return ret if str(ret) != "nan" else 0
 
 
-def getdataset(  ):
+
+def getdataset( ):
     namesList =[
         ["point", "measuringround", "H", "Rx", "Ry", "R"],
-        ["R" , "H"]
+        ["R" , "H"],["R" , "H"],["R" , "H"]
     ]
     datasets = []
     for _datapath , _names in zip(datapath, namesList)  :
@@ -32,7 +36,7 @@ def hist(ds, col, _hist):
     pass
 
 def plot_data_set(ds):
-    sns.set(style="darkgrid")
+    #sns.set(style="darkgrid")
     sns.set_context("paper")
     sns.lineplot( x = ds.H , y=ds.R , ci=100)
     sns.scatterplot(x = ds.H , y=ds.R, ci=100)

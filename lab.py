@@ -1,58 +1,30 @@
-# constants :
-from constants import DATAPATH as datapath
-
 # math :
 from numpy import *
 
 # ploting :
 from matplotlib import pyplot as plt
 
-
-
-# ~ loading data : ~ #
-def getdata():
-    dtype = [('Col{0}'.format(i),'f8') for i in range(6)]
-    return genfromtxt(datapath, dtype=dtype,
-     names = ["point" ,"measuringround" ,"H" ,"Rx",
-     "Ry","R"] , delimiter=None)
+from utility import getdataset
 # --------------- #
 
-def getangle(p , r):
-    ret = arccos( inner(p , r) / (linalg.norm(p) * linalg.norm(r))  )
-    return ret if str(ret) != "nan" else 0
+def functionF( pointsVec , ds):
+
+    groups_distances = [  ]
+    groups_var = [ 0 ]
+
+    groups = ds.groupby( ['H' , 'measuringround' ])
+    for i ,((x0 , y0)) , group ) in enumerate(zip(pointsVec,groups) ) :
+        p = array([x0 , y0] , dtype="f8")
+        groups_var.append(var(
+         group.applay(
+          lambda row : getangle( array([row.Rx , row.Ry]) , p  ) , axis=1)))
+
+    return var(groups_var)
 
 if __name__ == "__main__" :
-    data = getdata()
-    #plt.plot(data["Rx"],data["Ry"],'ro')
-
-    # for y0 in range(-1,2):
-    #     for (x,y) in zip(data["Rx"] , data["Ry"]):
-    #         plt.plot([0,x],[y0,y] , ''+{-1:'r',0:'b',1:'c'}[y0])
-
-    groups = { }
-    for (measuringround, H, x, y) in zip(data["measuringround"], data["H"],
-      data["Rx"], data["Ry"]):
-        if (measuringround, H) not in groups:
-            groups[(measuringround, H)] = []
-        groups[(measuringround, H)].append((x , y ))
+    ds1 , ds2 , ds3 , ds4 = getdata()
 
 
-    I = 0
-    for key , group in groups.items():
-        print("{0:2}.group : {1} ~> {2}".format(I, key, group))
-        I += 1
-
-    def functionF( pointsVec ,groups):
-        groups_distances = [ [] for _ in groups.items() ]
-        groups_var = [ 0 for _ in groups ]
-        xdir_vec = array([1 , 0] , dtype="f8")
-        for i, ((x0 , y0) , group) in enumerate(zip(pointsVec, groups.values())):
-            p = array([x0 , y0] , dtype="f8")
-            for (x , y) in group:
-                r = array([x , y]   , dtype="f8")
-                groups_distances[i].append( getangle(r - p , xdir_vec ) )
-            groups_var[i] = var( groups_distances[i])
-        return var(groups_var)
 
     eps = 10 ** -12
 
