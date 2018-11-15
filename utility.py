@@ -19,7 +19,6 @@ def getangle(p , r):
     return ret if str(ret) != "nan" else 0
 
 
-
 def getdataset( ):
     namesList =[
         ["point", "measuringround", "H", "Rx", "Ry", "R"],

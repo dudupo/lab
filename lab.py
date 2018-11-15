@@ -4,20 +4,23 @@ from numpy import *
 # ploting :
 from matplotlib import pyplot as plt
 
-from utility import getdataset
+from utility import getdataset , getangle
 # --------------- #
 
 def functionF( pointsVec , ds):
 
     groups_distances = [  ]
-    groups_var = [ 0 ]
+    groups_var = [  ]
 
     groups = ds.groupby( ['H' , 'measuringround' ])
-    for i ,((x0 , y0)) , group ) in enumerate(zip(pointsVec,groups) ) :
+    for i ,((x0 , y0) , group ) in enumerate(zip(pointsVec,groups) ) :
         p = array([x0 , y0] , dtype="f8")
-        groups_var.append(var(
-         group.applay(
-          lambda row : getangle( array([row.Rx , row.Ry]) , p  ) , axis=1)))
+        print(group[1])
+        print(
+         group[1][["Rx" , "Ry"]].apply(
+          lambda row : getangle( p, array([row.Rx , row.Ry],dtype="f8")  ) , axis=1))
+        #print(groups_var[-1])
+        print(group[1][["Rx" , "Ry"]])
 
     return var(groups_var)
 
