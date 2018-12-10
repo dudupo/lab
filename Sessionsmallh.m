@@ -34,7 +34,8 @@ classdef Sessionsmallh < Session
         end 
         
         function ek  = objkinect(obj)
-            ek = objkinect@Session(obj , obj.heights);
+             Height = 10;
+            ek = objkinect@Session(obj , Height);
             
         end
         

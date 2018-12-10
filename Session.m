@@ -56,12 +56,9 @@ classdef Session
             obj.id = Session.setId();
         end
         function plot(obj)
-            errorbar(obj.heights , obj.distances ,obj.hbars, obj.hbars, obj.rbars,obj.rbars, '.' );   
+            errorbar(obj.heights , obj.distances ,obj.hbars, obj.hbars, obj.rbars,obj.rbars, '.' );  
+            plot( fit( obj.heights , obj.distances , "a*(x)^b + c"));
             ann(obj);
-        end
-
-        function fit(obj)
-            
         end
         
         function s = var(obj)
@@ -101,7 +98,7 @@ classdef Session
         function ek = kinect(obj , H)
             gg = 10.981 * 10^2;
             m = 0.1;
-            ek = obj.distances.^2 * gg^2 * m ./ (4*H);
+            ek = (obj.distances.^2 * gg^2 * m) ./ (4*H);
         end
 
         function ek = objkinect(obj , H)
