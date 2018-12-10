@@ -10,14 +10,13 @@ classdef Session
         function retid = setId()
             persistent idd;
             if isempty(idd)
-                idd = 0;
+                idd = 0
             end
             idd = idd + 1;
             retid = idd;
         end
     end
     properties
-        LOGLABEL = " logaritmic scale";
         XLABEL = "";
         YLABEL = "";
         YLABELVAR = "";
@@ -56,14 +55,10 @@ classdef Session
             obj.id = Session.setId();
         end
         function plot(obj)
-            errorbar(obj.heights , obj.distances ,obj.hbars, obj.hbars, obj.rbars,obj.rbars, '.' );   
+            errorbar(obj.heights , obj.distances ,obj.hbars, obj.hbars, obj.rbars,obj.rbars, '.' );
             ann(obj);
         end
 
-        function fit(obj)
-            
-        end
-        
         function s = var(obj)
             r =  obj.rdistances(:);
             h = obj.rheights(:);
@@ -87,34 +82,27 @@ classdef Session
 
         function loglog(obj)
             loglog(obj.heights , obj.distances)
-            xlabel(strcat(obj.XLABEL , obj.LOGLABEL));
-            ylabel(strcat(obj.YLABEL , obj.LOGLABEL));
         end
 
         function plotlog(obj)
             semilogy(obj.heights , obj.distances)
-            xlabel(strcat(obj.XLABEL , obj.LOGLABEL));
-            ylabel(obj.YLABEL);
 
         end
 
         function ek = kinect(obj , H)
             gg = 10.981 * 10^2;
             m = 0.1;
+            H = 10;
             ek = obj.distances.^2 * gg^2 * m ./ (4*H);
         end
 
         function ek = objkinect(obj , H)
             ek  = Session(obj.heights, kinect(obj) ,obj.material);
             ek.hbars = obj.hbars ;
-            ek.rbars = (obj.hbar * obj.distances + obj.hbars .^ 2 )./ (H - obj.hbar) ;
+            ek.rbars = (obj.hbar * obj.distances + obj.hbars .^ 2 )./ H .- obj. ;
             ek.XLABEL = obj.XLABEL;
             ek.YLABEL = "Kinecket Energy K[J]";
-        end
-        
-        function vx = Vx(obj)
-            
-        
+
         end
 
         function log(obj , str)

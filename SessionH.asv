@@ -1,0 +1,33 @@
+classdef SessionH < Session 
+    %UNTITLED3 Summary of this class goes here
+    %   Detailed explanation goes here
+    
+    properties
+        XLABEL = "height relateive to the ground";
+        YLABEL = "distance";
+        YLABELVAR = "variance of clusters"; 
+        XLABELVAR = "cluster distance";
+    end
+    
+    methods
+        function obj = SessionH(G , material)
+            obj@Session(G , material);
+        end
+        
+        function plot(obj)
+            plot@Session(obj);
+            f = fit(obj.heights , obj.distances , "a*(x)^b" , 'StartPoint', [2, 0.5, 1, 0.8] );
+            plot(f);
+            f 
+            xlabel(obj.XLABEL);
+            ylabel(obj.YLABEL);
+%             hold of
+        end
+        function var(obj)
+            var@Session(obj);
+            xlabel(obj.XLABELVAR);
+            ylabel(obj.YLABELVAR);
+        end
+    end
+end
+
