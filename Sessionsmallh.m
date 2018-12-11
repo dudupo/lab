@@ -10,6 +10,7 @@ classdef Sessionsmallh < Session
             obj.YLABEL = "distance r[cm]";
             obj.YLABELVAR = "variance of clusters r[cm]"; 
             obj.XLABELVAR = "cluster distance h[cm]";
+            obj.Title = "PART II";
         end
         function plot(obj)
             plot@Session(obj);
@@ -23,8 +24,6 @@ classdef Sessionsmallh < Session
             %f
 %             hold on;
             %plot(f);
-            xlabel(obj.XLABEL);
-            ylabel(obj.YLABEL);
 %             hold of;
         end
         
@@ -36,7 +35,7 @@ classdef Sessionsmallh < Session
         function ek  = objkinect(obj)
              Height = 10;
             ek = objkinect@Session(obj , Height);
-            
+            ek.eq="a*(x)^b +  c";
         end
         
         function var(obj)

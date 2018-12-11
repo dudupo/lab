@@ -9,6 +9,7 @@ classdef SessionH < Session
             obj.YLABEL = "distance r[cm]";
             obj.YLABELVAR = "variance of clusters r[cm]"; 
             obj.XLABELVAR = "cluster distance H[cm]";
+            obj.Title = "PART I";
         end
         
         function plot(obj)
@@ -18,9 +19,7 @@ classdef SessionH < Session
             %'Upper', [140 , 0.6 , 0.01] , 'Lower' , [0 , 0.49 , 0.01 ] );
             %plot(f);
             %f 
-            xlabel(obj.XLABEL);
-            ylabel(obj.YLABEL);
-%             hold of
+%           hold of
         end
         
         function ek = kinect(obj)

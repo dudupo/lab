@@ -1,0 +1,993 @@
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.384  (3.967, 4.801)
+
+PART I
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.731  (4.403, 5.059)
+
+PART II
+glass
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       4.172  (3.476, 4.867)
+
+PART II
+metal
+distance r[cm]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =       5.138  (4.568, 5.707)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+
+PART I
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.483e+05  (6.411e+04, 2.324e+05)
+
+PART I
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^0.5
+     Coefficients (with 95% confidence bounds):
+       a =   1.612e+05  (7.246e+04, 2.5e+05)
+
+PART II
+glass
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   1.745e+04  (1.199e+04, 2.292e+04)
+       b =       1.581  (1.46, 1.702)
+       c =  -2.462e+04  (-4.904e+04, -199.2)
+
+PART II
+metal
+Kinecket Energy K[J]
+
+f = 
+
+     General model:
+     f(x) = a*(x)^b +  c
+     Coefficients (with 95% confidence bounds):
+       a =   2.535e+04  (8212, 4.248e+04)
+       b =       1.549  (1.286, 1.811)
+       c =   2.246e+04  (-4.75e+04, 9.241e+04)
+

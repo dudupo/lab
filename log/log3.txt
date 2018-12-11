@@ -1,0 +1,10 @@
+
+str = 
+
+     General model:
+     str(x) = a*(x)^b + c
+     Coefficients (with 95% confidence bounds):
+       a =       3.551  (2.104, 4.997)
+       b =      0.6841  (0.5605, 0.8078)
+       c =      -2.581  (-4.729, -0.4325)
+
